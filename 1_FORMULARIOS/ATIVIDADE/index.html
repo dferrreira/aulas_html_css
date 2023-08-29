@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="" class="form">
+        <h1>CADASTRO:</h1>
+        <div class="inputsContainer">
+            <div>
+                <label for="name">Nome: </label>
+                <input type="text" placeholder="Digite seu nome" id="name">
+            </div>
+            <div>
+                <label for="senha">Senha: </label>
+                <input type="password" placeholder="Digite sua senha" id="senha">
+            </div>
+            <div>
+                <label for="data">Data de Aniversario: </label>
+                <input type="date" id="data">
+            </div>
+        </div>
+        <div>
+            <label for="camisa">Tamanho de camisa: </label>
+            <select name="camisa" id="camisa">
+                <option value="pp">PP</option>
+                <option value="p">P</option>
+                <option value="m">M</option>
+                <option value="g">G</option>
+            </select>
+        </div>
+
+        <div>
+            <p>Forma que você quer receber a sua camisa: </p>
+
+            <div>
+                <input type="radio" id="a">
+                <label for="a">Na porta da sua casa</label>
+                <input type="radio" id="b">
+                <label for="b">Vem buscar</label>
+                <input type="radio" id="c">
+                <label for="c">Receber daqui a 2 anos</label>
+                <input type="radio" id="d">
+                <label for="d">Não receber</label>
+            </div>
+        </div>
+        <div>
+            <input type="checkbox" required id="termos">
+            <label for="termos">Li e concordo com os Termos de Serviço</label>
+        </div>
+        <button>ENVIAR</button>
+    </form>
+</body>
+</html>
