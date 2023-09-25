@@ -1,17 +1,23 @@
-@keyframes teste{
-    25% {
-        top
-    }
-    50% {
+#titulo-h2 {
+    color: darkorange;
+}
 
-    }
-    75%{
+.fundoAmarelo {
+    background: yellow;
+}
 
-    }
-    100%{
+.textoVermelho {
+    color: red;
+}
 
-    }
+h1 {
+    background: aquamarine;
+}
+
+h2 {
+    color: violet;
 }
 
 p {
+    color: steelblue;
 }
